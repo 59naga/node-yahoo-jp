@@ -12,8 +12,7 @@ branches:
 # Language options
 language: node_js
 node_js:
-  - '0.12'
-  - 'iojs'
+  - '0.10'
 
 env:
   global:
@@ -27,4 +26,4 @@ deploy:
   provider: npm
   email: i59naga@icloud.com
   api_key:
-    secure: ZgR72gVx3FckueiJ7sFvHgXqGUY65UxF2vPYqg+IJUst6TFvovhSrSO+ZlZCGVlOsrLANeNnOdtyrjgQS/3tEeUyzgEsOvFxSaATwt+Kb7sv+TOVEU48Adg7gacebBuGXJQ+nwMW4oxbt7t5r+SM440+gA/2F6S/kiYErIAUMmMVugm1yPw28k8MFL4sm8pKndGU8bbjQnX3F7Kh/SP4pctTN1YN3ZF5tt7G2CBkgcH/ndofTYtjGAfe4V50VHqCKDIN0sGjOtK4pzbaxXwv5HXgDkzqqXEli+WRBexVCVQpdobfPkQGiTlYxELVYAWzdEzQfdRdW/b3SpnoPd+qx2LVl/bW6COwOJu0+Pm++BPz6o+KgGTJKz1G9OFwBZdwyyoiPYZauEzjOjQY+mGjmUaVsVQrnOwF2QpCYsgWw+qh8WOIzE0dklQ6LkaSIFGy+TIbqbc10CNLMyBJzCkkK6jAWbhJBTr3gUXbj0B29aauceT45vnoAfXR2CJ+8CYSb02HiE1t39Jri0cuWvi4P0/izQoB2MFRaJPKPJuVXmrTxSzDYpuHcYtQMaUZPYN5seAxKiVcv5TwsVs4uctAvzQepmwHmMksdkhn2HDXtxWAr0XHMSMUAjC0VUPA8r/lYrBVW+Mt0j9J/xeM6cVH7Pmxgq80zEgDe2pqD9r+nk0=
+    secure: 41I93cj1sSzcUMectqWFnxJkgAPBiLJaK+hpS/vAx4vKPypGzGLQJtgrVh7hIPS9lM0NYNoCdNVskCP94mDtQgJ+nmp3Coi3HB44+XC1GoJPwB0Fv1sZRpeb2pQlWhw8qJO79a1anA0/lw0TqXievcWsHTlL7/YL5H3nNWk6zLKXcOlkRyOoc7NHExzqQtC2d7ereu+VWBwgN7EqmkZQa1tmuw1z5sEset77U17oqJKVsW8t52AnzSk1bXi8BBbfI6bVVal0nTVz3/yACs5KJ096vTljJloft+G4P4AmnomSwycszLNg2VRRNQuBcV/r3Vg5vxMJJn+7Ja51nlKMDvN7PyuNBA/YbRW8+EOli0zpGC6R6YsXEKbOkMLYN+XhTBN29asUm8ve3C8KD1PGUQDQS+QbX3eoa/XxSQ/x/PHxp7Kd3l3Nnaruvfbbr+eG5dYukZw5di03yWBRPjDXs/qytfohrab4Iampk4TtrlkY5RCJmQVQSzhbQ2zhyUn2Tcw/H4DRQidm8Yg/WSswh02DyIth1MqeSN88kRI6GNbkekLfSvfceLoCg7sYBWblRFQogjS7D3hgxJsnapUVVuDVt9C74bQdeJHghbHm6TvPI/rLNg7eGNLS89ia4n1SDW5MXKPpnA9eOeccT5w5MgVOvrZyck8MMV4h6pNKRLg=
