@@ -1,0 +1,49 @@
+{
+  "name": "yahoo-jp",
+  "version": "0.0.0",
+  "description": "Scrape the search.yahoo.co.jp",
+
+  "scripts": {
+    "start": "jasminetea --watch --timeout 5000",
+    "test": "jasminetea --lint --cover --report",
+
+    "prepublish": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && npm run compile || echo skip prepublish",
+    "compile": "coffee --bare --compile index.coffee",
+    "postcompile": "coffee --output lib --bare --compile src"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm test"
+    }
+  },
+
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0",
+    "throat": "^2.0.2"
+  },
+  "devDependencies": {
+    "ghooks": "^0.3.2",
+    "jasminetea": "^0.2.1"
+  },
+  "extraDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  
+  "keywords": [
+    "yahoo",
+    "japanese",
+    "scrape"
+  ],
+  "author": "59naga <i59naga@icloud.com> (http://berabou.me)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/59naga/node-yahoo-jp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/59naga/node-yahoo-jp/issues"
+  },
+  "homepage": "https://github.com/59naga/node-yahoo-jp#readme"
+}
