@@ -1,6 +1,9 @@
 # Dependencies
 yahooJp= require '../src'
 
+# Environment
+jasmine.DEFAULT_TIMEOUT_INTERVAL= 5000
+
 # Specs
 describe 'yahooJp',->
   describe '.fetchAll',->
@@ -25,7 +28,6 @@ describe 'yahooJp',->
 
       yahooJp.fetchAll queires,options
       .then (items)->
-        console.log JSON.stringify items,null,2
         expect(items.length).toBe 10
         
         done()

@@ -12,7 +12,8 @@ branches:
 # Language options
 language: node_js
 node_js:
-  - '0.10'
+  - '0.12'
+  - 'iojs'
 
 env:
   global:

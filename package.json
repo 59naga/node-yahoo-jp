@@ -4,7 +4,7 @@
   "description": "Scrape the search.yahoo.co.jp",
 
   "scripts": {
-    "start": "jasminetea --watch --timeout 5000",
+    "start": "jasminetea --watch",
     "test": "jasminetea --lint --cover --report",
 
     "prepublish": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && npm run compile || echo skip prepublish",
