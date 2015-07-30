@@ -1,7 +1,5 @@
 # node-yahoo-jp [![NPM version][npm-image]][npm] [![Build Status][travis-image]][travis] [![Coverage Status][coveralls-image]][coveralls]
 
-[![Sauce Test Status][sauce-image]][sauce]
-
 > Scrape the http://search.yahoo.co.jp/search
 
 ## Installation
