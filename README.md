@@ -81,7 +81,7 @@ License
 [sauce]: https://saucelabs.com/u/59798
 [npm-image]:https://img.shields.io/npm/v/yahoo-jp.svg?style=flat-square
 [npm]: https://npmjs.org/package/yahoo-jp
-[travis-image]: http://img.shields.io/travis/59naga/yahoo-jp.svg?style=flat-square
+[travis-image]: http://img.shields.io/travis/59naga/node-yahoo-jp.svg?style=flat-square
 [travis]: https://travis-ci.org/59naga/node-yahoo-jp
 [coveralls-image]: http://img.shields.io/coveralls/59naga/node-yahoo-jp.svg?style=flat-square
 [coveralls]: https://coveralls.io/r/59naga/node-yahoo-jp?branch=master
